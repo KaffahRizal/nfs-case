@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NFS-IR-2026-09-14 - Case Portal</title>
+<style>
+  :root{--bg:#0a1018;--card:#0f1a28;--line:#1d2e44;--fg:#e7eef8;--muted:#8ea6c4;--accent:#38bdf8;--warn:#fbbf24}
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1000px 500px at 50% -10%,#123055 0%,var(--bg) 60%);color:var(--fg);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;line-height:1.65}
+  .wrap{max-width:860px;margin:0 auto;padding:48px 22px 80px}
+  .badge{display:inline-block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#04121f;background:var(--warn);padding:4px 9px;border-radius:5px;font-weight:700}
+  h1{font-size:30px;margin:16px 0 6px;letter-spacing:.5px}
+  .sub{color:var(--muted);font-size:14px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px}
+  @media(max-width:680px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+  .card h2{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:0 0 12px}
+  .card p,.card li{font-size:13.5px;color:#c9d7ea}
+  ul{margin:0;padding-left:18px}
+  li{margin:5px 0}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .files{list-style:none;padding:0}
+  .files li{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px dashed var(--line);margin:0}
+  .files li:last-child{border-bottom:0}
+  .files a{word-break:break-all}
+  code{background:#0a1424;border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:12.5px}
+  .flag{color:var(--warn)}
+  footer{margin-top:34px;color:var(--muted);font-size:12px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="badge">Fictional training case</span>
+  <h1>NFS-IR-2026-09-14</h1>
+  <div class="sub">Kebocoran dokumen internal &middot; Guided OSINT challenge</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Ringkasan</h2>
+      <p>
+        Laporan audit internal PT Nusantara Fintech Sejahtera bocor ke publik
+        pada 14 September 2026. Seorang kontraktor eksternal diduga terlibat.
+        Rekonstruksi jejak digitalnya menggunakan OSINT.
+      </p>
+      <p>
+        Selesaikan 7 objective berurutan di platform CTF. Setiap objective
+        membuka petunjuk berikutnya.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Rules of engagement</h2>
+      <ul>
+        <li>Hanya OSINT dan artefak yang diberikan.</li>
+        <li>Jangan menghubungi atau mengejar siapa pun.</li>
+        <li>Semua entitas fiktif.</li>
+        <li>Format flag: <code class="flag">FLAG{...}</code></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h2>Evidence locker</h2>
+    <ul class="files">
+      <li><a href="evidence/01_NFS-Audit-2026-Q3.pdf">01_NFS-Audit-2026-Q3.pdf</a><span>PDF</span></li>
+      <li><a href="evidence/02_forum_thread.html">02_forum_thread.html</a><span>HTML</span></li>
+      <li><a href="evidence/03_avatar.png">03_avatar.png</a><span>PNG</span></li>
+      <li><a href="evidence/05_post_photo.jpg">05_post_photo.jpg</a><span>JPG</span></li>
+      <li><a href="evidence/07_leak_email.eml">07_leak_email.eml</a><span>EML</span></li>
+      <li><a href="evidence/SHA256SUMS">SHA256SUMS</a><span>HASH</span></li>
+      <li><a href="evidence.zip">evidence.zip</a><span>ZIP</span></li>
+    </ul>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h2>Briefing</h2>
+    <p>
+      Baca <a href="case_brief.md">case_brief.md</a> untuk aturan lengkap,
+      lalu mulai dari objective pertama di platform CTF.
+    </p>
+  </div>
+
+  <footer>NFS-IR-2026-09-14 &middot; konten fiktif untuk pelatihan</footer>
+</div>
+</body>
+</html>
